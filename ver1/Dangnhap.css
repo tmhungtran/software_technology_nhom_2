@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FEE3EC;
+}
+.login-form {
+    background-color: #FFEBD8;
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 100px rgb(221, 99, 223);
+    width: 400px;
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group .error-message {
+    color: #ff0000;
+    margin-top: 5px;
+    display: none;
+}
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+.form-actions button {
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+}
+.form-actions .cancel-btn {
+    background-color: #ff50aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.form-actions .submit-btn {
+    background-color: #ff50aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.forgot-password,
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+.forgot-password a,
+.signup-link a {
+    color: #ff50aa;
+    text-decoration: none;
+    cursor: pointer;
+}
+.forgot-password a:hover,
+.signup-link a:hover {
+    text-decoration: underline;
+}
+.forgot-password-group {
+    display: none;
+    margin-top: 20px;
+}
